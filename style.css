@@ -3,6 +3,24 @@ body {background-color: #D8D3C9;
     gap: 14px;
     max-width: 1200px;
     grid-template-columns: 1.5fr 1.05fr 0.9fr;
+    grid-template-areas:
+    "intro skills project"
+    "intro about contact";
+}
+.intro {
+    grid-area: intro;
+}
+.skills {
+    grid-area: skills;
+}
+.project {
+    grid-area: project;
+}
+.about {
+    grid-area: about;
+}
+.contact {
+    grid-area: contact;
 }
 section {
     background-color: #F5F2EA;
