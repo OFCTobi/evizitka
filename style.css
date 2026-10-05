@@ -1,29 +1,57 @@
-body {background-color: #D8D3C9;
+body {
+    background-color: #D8D3C9;
+    font-family: "Space Grotesk", sans-serif;
+}
+main {
     display: grid;
     gap: 14px;
+    margin : 0 auto;
     max-width: 1200px;
     grid-template-columns: 1.5fr 1.05fr 0.9fr;
-    grid-template-areas:
-    "intro skills project"
-    "intro about contact";
+    grid-template-areas: "inro specializace projekt""intro popis kontakt" 
 }
 .intro {
     grid-area: intro;
+    background-color: #F5F2EA;
+    color: black;
 }
-.skills {
+.specializace {
     grid-area: skills;
+    background-color: #181818;
+    color: white;
 }
-.project {
+.projekt {
     grid-area: project;
+    background-color: #D8FF45;
+    color: black;
 }
-.about {
+.popis {
     grid-area: about;
+    background-color: #F5F2EA;
+    color: black;
 }
-.contact {
+.kontakt {
     grid-area: contact;
+    background-color: #F5F2EA;
+    color: white;
 }
 section {
-    background-color: #F5F2EA;
     padding: 28px;
     border-radius: 24px;
+}
+h1 {
+    font-size: 80px;
+}
+p {font-size: 16px;
+}
+h3 {font-size: 40px;
+}
+h2 {font-size: 12px;
+}
+span {font-size: 12px;
+}
+li {font-size: 42px;
+}
+ul {life-style: none;
+padding: 0;
 }
